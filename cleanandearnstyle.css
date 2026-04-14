@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box1 {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+}
+.user-info{
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 10px
+}
+.profile-img{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 8px;
+}
+
+.box1 button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.box1 button:hover {
+    background: #333;
+    color: white;
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.page {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.card {
+    height: 600px;
+    width: 700px;
+    max-width: 700px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 30px;
+}
+.card p{
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.admin-card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.admin-card button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#captchaText {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    background: #eee;
+    padding: 5px;
+    display: inline-block;
+}
+
+.approve {
+    background: green;
+    color: white;
+}
+
+.reject {
+    background: red;
+    color: white;
+}
